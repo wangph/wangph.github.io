@@ -5,7 +5,7 @@ layout: default
 	<h1 class="title">{{ page.title }}</h1>
 
         {{ content }}
-        			<article class="entry">
+        	<article class="entry">
 				<h1 class="title">{{ page.title }}</h1>
                	<p class="meta"><time class="date" pubdate="{{ page.date | date_to_utc | date: '%Y-%m-%d' }}">{{ page.date | date_to_string }}</time> By <a href="/contact.html" class="author" title="author">{{ site.author.name }}</a></p>
  			 	{{ content }}
@@ -17,5 +17,5 @@ layout: default
                     <a class="next" href="{{ page.next.url }}" rel="bookmark">{{ page.next.title | truncatewords:5 }}&nbsp;&raquo;</a>
                     {% endif %}
                  </nav>
-			</article><!-- .entry -->
+			</article>
 </section>
