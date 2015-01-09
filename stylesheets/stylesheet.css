@@ -43,7 +43,7 @@ header {
   margin: 0 0 40px 0;
 }
 
-header h1 {
+header h1 a {
   font-size: 30px;
   line-height: 1.5;
   margin: 0 0 0 -40px;
@@ -54,6 +54,7 @@ header h1 {
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
   letter-spacing: -1px;
+  text-decoration:none;
   -webkit-font-smoothing: antialiased;
 }
 
